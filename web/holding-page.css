@@ -1,0 +1,29 @@
+html { height: 97%; }
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 99%;
+    color: white;
+    background-color: #c00;
+    font-size:10px;
+    font-family:verdana, arial, sans-serif;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+#homepage-content {
+    margin-top: 8rem;
+}
+#homepage-content #huge-logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #homepage-content {
+        margin-top: 4rem;
+    }
+    #homepage-content #huge-logo img {
+        width: 250px;
+    }
+}
